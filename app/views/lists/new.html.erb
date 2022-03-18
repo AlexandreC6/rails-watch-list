@@ -1,7 +1,7 @@
 <h1> Create a list</h1>
 
 <%= simple_form_for @list do |f| %>
-  <%= f.input :name %>
+  <%= f.input :name, placeholder: "Write here.." %>
   <%= f.submit "Submit", class: "btn btn-primary" %>
 <% end %>
 
