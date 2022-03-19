@@ -1,15 +1,79 @@
-.banner {
-  background: url(https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
-  width: 100vw;
+$ligth_grey: rgba(200, 209, 209, 0.12);
+
+
+.bgimg-1 {
+  background: url(https://images.unsplash.com/photo-1471877325906-aee7c2240b5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80);
   height: 100vh;
-  background-size: cover ;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  position: relative;
+  // opacity: 0.65;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
 }
 
-.banner h1 {
-  color: white;
-  padding-left: 10%;
-  font-weight: 600;
+.caption {
+  position: absolute;
+  left: 25%;
+  top: 30vh;
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  color: #000;
 }
+
+.titre {
+  color: white;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.border {
+  background-color: $ligth_grey;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  margin-bottom: 16px;
+
+  .text {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+
+
+// .banner {
+//   background: url(https://images.unsplash.com/photo-1471877325906-aee7c2240b5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80);
+//   height: 100vh;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   // position: relative;
+// }
+
+// .banner h1 {
+//   // position: absolute;
+//   color: white;
+//   padding-left: 50px;
+//   font-weight: 600;
+// }
+
+// .cards {
+//   display: flex;
+//   flex-direction: column;
+//   padding-top: 100px;
+//   align-items: flex-start;
+//   align-content: flex-start;
+// }
+
+// .button-create-list {
+//   // background: rgba(229, 229, 229, 0.1);
+//   background: red;
+
+// }

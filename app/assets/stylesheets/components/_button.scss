@@ -1,0 +1,28 @@
+$ligth_grey: rgba(200, 209, 209, 0.12);
+
+.button-create-list {
+  color: white;
+  width: 300px;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 18px;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: $ligth_grey;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+  }
+}
+
+.btn-general {
+  display: flex;
+  padding: 50px 0;
+  justify-content: center;
+}
